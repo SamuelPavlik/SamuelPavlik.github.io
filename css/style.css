@@ -2577,8 +2577,11 @@ h6 {
       .tabs_inner .nav.nav-tabs li a.active {
         background: #fff;
         color: #222222; }
+.tabs_inner .tab-content .tab-pane {
+    padding-left: 75px;
+}
 .tabs_inner .tab-content .tab-pane .list {
-  max-width: 460px;
+  max-width: 920px;
   margin: auto;
   position: relative;
   padding-top: 40px;
@@ -2617,6 +2620,9 @@ h6 {
         transform: translateX(-50%); }
     .tabs_inner .tab-content .tab-pane .list li:last-child {
       margin-bottom: 0px; }
+    .tabs_inner .tab-content .tab-pane .list li .media {
+      padding-left: 220px;
+    }
     .tabs_inner .tab-content .tab-pane .list li .media .d-flex {
       padding-right: 100px; }
       .tabs_inner .tab-content .tab-pane .list li .media .d-flex p {
@@ -2627,10 +2633,16 @@ h6 {
       color: #fff;
       font-size: 21px;
       text-transform: uppercase;
-      margin-bottom: 20px; }
-    .tabs_inner .tab-content .tab-pane .list li .media .media-body p {
+      margin-bottom: 10px; }
+    .tabs_inner .tab-content .tab-pane .list li .media .media-body h5 {
       color: rgba(255, 255, 255, 0.75);
-      margin-bottom: 0px; }
+      margin-bottom: 10px; }
+    .tabs_inner .tab-content .tab-pane .list li .media .media-body ul {
+      color: rgba(255, 255, 255, 0.75);
+      margin-bottom: 0px;
+      padding-left: 0px;}
+    .tabs_inner .tab-content .tab-pane .list li .media .media-body ul li {
+      margin-bottom: 0px;}
 
 /* End My Tabs Area css
 ============================================================================================ */
