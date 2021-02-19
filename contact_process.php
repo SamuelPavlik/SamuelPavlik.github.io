@@ -18,6 +18,12 @@
 
 	$body .= "{$cmessage}";
 
-    $send = mail($to, $subject, $body, $headers);
+//     $send = mail($to, $subject, $body, $headers);
 
+    if (@mail($to, $from, $body, $headers))
+    {
+        echo 'The message has been sent.';
+    }else{
+        echo 'failed';
+    }
 ?>
