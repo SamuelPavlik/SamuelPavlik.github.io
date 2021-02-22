@@ -2577,12 +2577,24 @@ h6 {
       .tabs_inner .nav.nav-tabs li a.active {
         background: #fff;
         color: #222222; }
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width : 992px) {
+  .tabs_inner .tab-content .tab-pane {
+      padding-left: 75px;
+    }
+  }
+  /* Large Devices, Wide Screens */
+  @media only screen and (min-width : 1200px) {
+  .tabs_inner .tab-content .tab-pane {
+      padding-left: 75px;
+    }
+  }
 .tabs_inner .tab-content .tab-pane .list {
   max-width: 920px;
   margin: auto;
   position: relative;
   padding-top: 40px;
-  padding-bottom: 60px; }
+  padding-bottom: 60px;}
   .tabs_inner .tab-content .tab-pane .list:before {
     content: "";
     height: 100%;
