@@ -2577,9 +2577,9 @@ h6 {
       .tabs_inner .nav.nav-tabs li a.active {
         background: #fff;
         color: #222222; }
-//.tabs_inner .tab-content .tab-pane {
-//    padding-left: 75px;
-//}
+.tabs_inner .tab-content .tab-pane {
+    padding-left: 75px;
+}
 .tabs_inner .tab-content .tab-pane .list {
   max-width: 920px;
   margin: auto;
