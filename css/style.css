@@ -2617,9 +2617,6 @@ h6 {
         transform: translateX(-50%); }
     .tabs_inner .tab-content .tab-pane .list li:last-child {
       margin-bottom: 0px; }
-    .tabs_inner .tab-content .tab-pane .list li .media {
-        padding-left: 0px;
-      }
 
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
