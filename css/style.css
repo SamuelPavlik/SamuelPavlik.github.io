@@ -2619,7 +2619,11 @@ h6 {
         top: 4px;
         transform: translateX(-50%); }
     .tabs_inner .tab-content .tab-pane .list li:last-child {
-      margin-bottom: 0px; }ł
+      margin-bottom: 0px; }
+    .tabs_inner .tab-content .tab-pane .list li .media {
+        padding-left: 0px;
+      }
+    }
     /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
     .tabs_inner .tab-content .tab-pane .list li .media {
