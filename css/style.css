@@ -2621,12 +2621,6 @@ h6 {
         padding-left: 0px;
       }
 
-    /* Small Devices, Tablets */
-    @media only screen and (min-width : 768px) {
-    .tabs_inner .tab-content .tab-pane .list li .media {
-          padding-left: 220px;
-        }
-    }
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
     .tabs_inner .tab-content .tab-pane .list li .media {
